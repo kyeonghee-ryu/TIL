@@ -155,7 +155,56 @@ git init
    $ git commit -m "summary.md 수정"
    ```
 
-   ##### 5. 원격저
+
+#### 5. Remote
+
+1. local(현재 나의 pc)와 remote(git-hub등 저장소)를 동기화해야한다. (local에 있는 파일을 remote로 동기화)
+
+	```
+	$ git remote add origin <url>  #remote와 local동기화됨, 아직 파일이 		local에만 있는 상태)
+	```
+
+2. local의  commit한 파일을 `push`를 통해 remote로 보낸다. 
+
+   ```
+   $ git push origin master
+   ```
+   
+   
+
+​    +)  remote에 있는 파일 삭제하는 법
+
+​	```  $ git remote rm <remote_repo_name> ```
+
+​        삭제된 것 확인
+
+​	```  $ git remote -v```
+
+#### 6. 기타
+
+1. 커밋 히스토리 조회
+
+   -log를 n개까지만 보고싶을 때
+
+	```
+	$ git log -2   #log를 2개까지 확인
+	```
+
+​	   -online옵션은 각 커밋을 하나의  라인으로 보여준다.
+
+​		아래의 코드 실행 결과, 노란색으로 뜨는 것은 커밋 고유번호
+
+​		```$ git log --pretty=online```
+
+   2. -rf는 강력한 제거 수단
+
+      `rm -rf <file name or directory name>` 
+
+      
+
+
+
+
 
 ### Summary
 
@@ -171,27 +220,15 @@ git init
 | `$ git status`             | 현재 상태를 보여준다.                               |
 | `$ git commit -m "mesage"` | stage에 있는 것을 commit한다.                       |
 
+| `$ git remote add origin <url>` | remote와  local을 동기화한다           |
+| ------------------------------- | -------------------------------------- |
+| `$ git push origin master`      | local의  commit한 파일을 push로 보낸다 |
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### 
 
 
 
