@@ -252,6 +252,6 @@ print(x);print(y)   # x값도 변경됨
 import copy
 y = copy.deepcopy(x)
 y['a']['python'] = 4.0
-print(y);print(x)  # y만 변경됨
+print(y);print(x)  #y만 변경됨
 
 
