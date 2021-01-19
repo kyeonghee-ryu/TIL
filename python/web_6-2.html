@@ -1,0 +1,145 @@
+<!--
+1. 태그
+
+1-1 <table>
+
+-->
+
+
+
+<style>
+    table{
+    border: 3px solid #ff0000;
+    border-collapse:collapse;
+        }
+    th,td{
+    border: 1px solid #0000ff;
+    }
+</style>
+<meta charset="UTF-8">
+<table>
+    <thead>
+      <tr>
+         <th>학교</th>
+         <th>창립년도</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>서울대학교</td>
+         <td>1946</td>
+      </tr>
+      <tr>
+         <td>고려대학교</td>
+         <td>1905</td>
+      </tr>
+      <tr>
+         <td>연세대학교</td>
+         <td>1885</td>
+
+      </tr>
+   </tbody>
+</table>
+=================================================================
+<table>
+<thead>
+<tr><th>제목:</th><th>퀴즈</th></tr>
+</thead>
+<tbody>
+<tr><td>c1</td><td>c2</td></tr>
+<tr><td>c3</td><td>c4</td></tr>
+</tbody>
+</table>
+=================================================================-->
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>초간단 테이블</title>
+</head>
+<body>
+    <table border="1" bordercolor="blue" width="600px" height="600px">
+   <th>테이블</th>
+   <th>만들기</th>
+   <tr align="center"><!-- 첫번째 줄 시작 -->
+       <td bgcolor="red" rowspan="2">첫번째 칸</td>
+       <td>두번째 칸</td>
+   </tr><!-- 첫번째 줄 끝 -->
+   <tr bgcolor="skyblue"><!-- 두번째 줄 시작 -->
+       <td>두번째 칸</td>
+   </tr><!-- 두번째 줄 끝 -->
+    </table>
+</body>
+</html>
+
+
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>초간단 테이블</title>
+</head>
+<body>
+    <table border="2" bordercolor="blue" width="100%" height="30%">
+   <th>테이블</th>
+   <th>만들기</th>  <!--th태그는 가운데 정렬이 default-->
+   <tr align="right">   <!--첫번째 줄 시작 -->
+        <td colspan="2">합쳐진칸</td>
+        <td rowspan="2">로우</td>
+       <td>첫번째 칸</td>
+       <td>두번째 칸</td>
+   </tr> <!-- 첫번째 줄 끝 -->
+   <tr>  <!--두번째 줄 시작-->
+       <td>두번째 칸</td>
+   </tr> <!--두번째 줄 끝 -->
+    </table>
+</body>
+</html>
+
+
+
+<div style="background-color: yellow">구역1</div>
+<div style="width: 100px; height:100px;background-color: #F0B27A">구역2</div>
+<div style="width: 100px; height:100px;background-color: green">구역3</div>
+<div style="width: 100px; height:100px;background-color: red">구역4</div>
+<span style="background-color: yellow">구역1</span>
+<span style="background-color: #F0B27A; width: 300px">구역2</span>
+<span style="background-color: green">구역3</span>
+<span style="background-color: red">구역4</span>
+
+
+<ol>
+    <li>목록</li>
+    <li>목록</li>
+    <li>목록</li>
+    <li>목록</li>
+
+</ol>
+<ul>
+    <li>목록</li>
+    <li>목록</li>
+    <ol><li>목록2-1</li><li>목록2-2</li></ol>
+    <li>목록</li>
+    <li>목록</li>
+
+</ul>
+
+<html>
+<head>
+    <title>제목</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="노트북, 컴퓨터, 주변기기">
+    <meta name="description" content="컴퓨터 판매 페이지입니다.">
+    <meta name="robots" content="all">
+<!--페이지 정보를 제공(페이지 설명, 키워드, 제작자, 크롤링 정책)을 제공 &ndash;&gt;
+&lt;!&ndash;키워드는 검색엔진의 길잡이가 되기 때문에 중요함&ndash;&gt;
+&lt;!&ndash;실행시 화면에 출력되지 않음. 숨어있는 태그
+title,meta, link, style, script
+-->
+</head>
+</html>
+
+<!--
+한국어 인코딩 방식: euc-kr, utf-8
+euc-kr: ascii(1byte)+한글만 확장 사용 => 2byte
+utf-8: 보편화된 인코딩 다른나라 언어도 가능-->
+
+
