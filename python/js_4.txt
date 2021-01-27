@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>WEB1 - JavaScript</title>
+        <meta charset="utf-8">
+        <script>
+        function nightDayHandler(self) {
+            var target = document.querySelector('body');
+            if(self.value === '밤') {
+                target.style.backgroundColor = 'black';
+                target.style.color = 'white';
+                self.value = '낮';
+
+                var alist = document.querySelectorAll('div.night a');
+                var i = 0;
+                while(i < alist.length) {
+                    alist[i].style.color = 'powderblue';
+                    i = i + 1;
+                }
+            }
+            else {
+                target.style.backgroundColor = 'white';
+                target.style.color = 'black';
+                self.value = '밤';
+
+                var alist = document.querySelectorAll('div.day a');
+                var i = 0;
+                while(i < alist.length) {
+                    alist[i].style.color = 'blue';
+                    i = i + 1;
+
+                }
+            }
+            }
+        </script>
+    </head>
+    <body>
+        <h1><a href="index.html" font-family="나눔고딕">낮과 밤</a></h1>
+
+        <input type="button" value="밤" onclick="nightDayHandler(this);">
+        <div class="night" style="margin-top:20px;"> 밤에 할 일
+        <ol>
+            <li><a href="1.html">잠자기</a></li>
+            <li><a href="2.html">씻기</a></li>
+            <li><a href="3.html">양치하기 </a></li>
+        </ol>
+        </div>
+         <div class="day" style="margin-top:20px;"> 낮에 할 일
+        <ol>
+            <li><a href="1.html">일어나기</a></li>
+            <li><a href="2.html">밥먹기</a></li>
+            <li><a href="3.html">공부하기 </a></li>
+        </ol>
+        </div>
+        <input type="button" value="낮" onclick="nightDayHandler(this);">
+    </body>
+</html>
