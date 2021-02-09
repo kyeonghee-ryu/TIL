@@ -1,0 +1,59 @@
+/*!
+ * Start Bootstrap - Small Business (https://startbootstrap.com/template/small-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-small-business/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+.bg-dark {
+  background-color: white!important;
+}
+a {
+  color: WHITE;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  color: #ad9aee;
+  font-weight: bold;
+}
+.navbar-dark .navbar-nav .nav-link {
+   color:#ad9aee;
+   font-weight: bold;
+}
+
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color:#8c8cff ;
+}
+.btn-primary {
+  background-color:white;
+  border-color: #ad9aee;
+  border-width: 3px;
+  color : #ad9aee;
+  font-weight: bold;
+  /* color: #FFF; */
+}
+
+.btn-primary:hover{
+  background-color:#ad9aee;
+  color: white;
+  border-color: #ad9aee;
+  color: white;
+}
+
+
+.bg-primary {
+  background-color: white!important;
+}
+h1{
+  color:#ad9aee;
+}
+
+h2{
+color: #ad9aee;
+
+}
+
