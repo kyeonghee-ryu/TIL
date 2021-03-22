@@ -1,0 +1,19 @@
+		
+		 @import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Nanum+Gothic+Coding&display=swap'); 
+
+		
+		h2{ padding-top: 10px; color: white;text-align: center;font-family: 'Nanum Gothic Coding', monospace;margin-bottom: 50px;}
+		/* span{ padding-top:0px;background: url("./image/우리2.png") no-repeat center center; width: 800px;
+			height: 500px; background-size: 100%; display: block; margin: 0px auto 0; text-indent: -9999px; } */
+		
+		.content{text-align: center;}	
+		.benefit{color:white;font-family: sans-serif;}
+		p{ width: 75%; height: 70px;   color:white;}
+		strong{ width: 100%; height: 30px; display: block; line-height: 2.0; font-family: 'Gamja Flower', cursive;
+			 font-weight: normal; auto 0;color:violet; font-size: 22px;}
+		body{ font-size: 15px; }
+		.a { font: size 20px; margin-top: 20px; }
+        h2{ font-family: 'Nanum Gothic Coding', monospace; text-decoration: none;  color:white; justify-content: center; align-items: center; }
+        .btn{color:white; width:220px;  height: 45px;border-width: 3px; border-color: white;text-align: center;text-decoration: none;
+            display: inline-block;font-size: 10px;cursor: pointer;border-radius:5px; }
+        .btn:hover{border-color:#FFBF00}
