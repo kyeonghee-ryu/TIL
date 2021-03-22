@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>스토리</title>
+	<style>
+		* { margin: 0; padding: 0; }
+		section { width: 100%; height: 100%; background: url("./images/back3.jpg"); text-align: center; }
+		.img1, .img2, .img3, .img4 { width: 600px; height: 600px; background: url("./images/cloud.jpg") no-repeat center center; background-size: 100%; margin: 0 auto; text-indent: -9999px; }
+		.img2 { background-image: url("./images/coffee.jpg"); }
+		.img3 { background-image: url("./images/bed.jpg"); }
+		.img4 { background-image: url("./images/sleep.jpg"); }
+		h1 { color: #000; padding-top: 100px; }
+		ul { width: 100%; height: 500px; display: flex; justify-content: space-between; }
+		ul > li { width: 25%; height: 80%; list-style: none; background: url("./images/no_light.jpg") no-repeat center center; background-size: 80%;}
+		ul > li:nth-child(2) { background-image: url("./images/light.jpg"); }
+		ul > li:nth-child(3) { background-image: url("./images/tree.jpg"); }
+		ul > li:last-child { background-image: url("./images/no_tree.jpg"); }
+		ul > li > a { width: 325px; height: 400px; display: block; text-indent: -9999px; }
+	</style>
+</head>
+<body>
+	<div id="wrap">
+		<div class="con">
+			<section class="content5">
+				<h1>꿈속에서 당신은 정원 한가운데 서 있습니다 그 정원은 어떤 정원 일까요?</h1>
+				<ul>
+					<li>
+						<a href="no_light.html">1</a>
+						<span>나무들이 너무 울창해서 햇살조차 안드는 숲과 같은 정원.</span>
+					</li>
+					<li>
+						<a href="light.html">2</a>
+						<span>나무들은 울창하지만 햇살이 조금 스며드는 숲같은 정원.</span>
+					</li>
+					<li>
+						<a href="tree.html">3</a>
+						<span>커다란 나무 한 그루가 심어져 있는 정원.</span>
+					</li>
+					<li>
+						<a href="no_tree.html">4</a>
+						<span>아직 나무들이 크게 자라있지 않은 정원.</span>
+					</li>
+				</ul>
+			</section>
+		</div>
+	</div>
+</body>
+</html>
